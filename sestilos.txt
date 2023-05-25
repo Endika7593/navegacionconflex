@@ -1,0 +1,50 @@
+ {
+    margin 0;
+    padding 0;
+    box-sizing border-box
+
+}
+nav {
+    border 3px solid black;
+
+}
+
+nav ul {
+    border 2px dotted red;
+    display block;
+    flex-direction column;
+    list-style none;
+}
+
+
+nav ul li {
+    border 1px solid green;
+    text-align center;
+
+}
+
+nav ul li a {
+    border 1px solid blue;
+    display block;
+    width 100%
+
+    
+}
+
+ 768 
+@media screen and (min-width768) {}
+
+    nav ul {
+        border 2px dotted red;
+        display flex;
+        flex-direction_ column;
+    }
+
+    nav ul li a {
+        border 1px solid blue;
+        display block;
+        width 100%;
+    }
+
+ 992 
+@media screen and (min-width992) {}

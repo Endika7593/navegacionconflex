@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    border: 3px solid black;
+}
+
+ul {
+    border: 2px dotted red;
+}
+
+li {
+    border: 1px solid green;
+}
+
+
+/* 768 */
+@media screen and (min-width:786) {
+
+}
+
+
+/* 992 */
+@media screen and (min-width:992) {
+    
+}
